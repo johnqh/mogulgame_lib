@@ -1,4 +1,3 @@
-export { calculatePercentage, calculateSum } from './calculations';
 export {
   MAX_OFFER_MULTIPLIER,
   calculateMaxOffer,
