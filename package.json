@@ -1,6 +1,6 @@
 {
   "name": "@sudobility/mogulgame_lib",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Business logic library for Starter with Zustand stores",
   "type": "module",
   "main": "dist/index.js",
