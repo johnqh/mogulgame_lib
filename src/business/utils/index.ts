@@ -8,3 +8,9 @@ export {
   totalActiveOfferValue,
   formatResolutionSummary,
 } from './offers';
+export {
+  formatPrice,
+  formatPriceShort,
+  getCurrencySymbol,
+  getCurrencyCode,
+} from './currency';
