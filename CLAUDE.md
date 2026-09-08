@@ -1,5 +1,10 @@
 # MogulGame Lib
 
+> **Git policy — never auto-commit or auto-push.** Leave your work in the working tree.
+> Run `git commit`, `git push`, `gh pr create`, or `scripts/push_all.sh` **only when the user
+> explicitly asks in that turn**. Approval for an earlier change does not carry forward, and
+> finishing a task is not permission to commit it.
+
 Pure, synchronous business-logic helpers for MogulGame.
 
 **npm**: `@sudobility/mogulgame_lib` (restricted, BUSL-1.1)
@@ -103,3 +108,7 @@ belongs in `mogulgame_types`, which has no React dependency.
 - `formatResolutionSummary`, `calculateBalanceFromLedger`, and `MAX_OFFER_MULTIPLIER` are exported but imported by nothing. Don't assume an export is load-bearing
 - The `package.json` description and the `zustand` peer dependency are stale template residue -- see the note at the top
 - This is a published npm package -- editing `src/` has no effect on `mogulgame_app` until published and the dep bumped; use `bun link` for local iteration
+
+## Git Workflow
+
+- Do not use feature branches for code changes. Always stay on the current branch.

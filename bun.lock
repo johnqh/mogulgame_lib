@@ -6,9 +6,9 @@
       "name": "@sudobility/starter_lib",
       "devDependencies": {
         "@eslint/js": "^9.38.0",
-        "@sudobility/mogulgame_client": "^0.0.31",
-        "@sudobility/mogulgame_types": "^0.0.22",
-        "@sudobility/types": "^1.9.62",
+        "@sudobility/mogulgame_client": "^0.0.32",
+        "@sudobility/mogulgame_types": "^0.0.23",
+        "@sudobility/types": "^1.9.67",
         "@tanstack/react-query": "^5.90.5",
         "@testing-library/react": "^16.3.2",
         "@testing-library/react-hooks": "^8.0.1",
@@ -29,7 +29,7 @@
         "zustand": "^5.0.8",
       },
       "peerDependencies": {
-        "@sudobility/types": "^1.9.62",
+        "@sudobility/types": "^1.9.67",
         "@tanstack/react-query": ">=5.0.0",
         "react": ">=18.0.0",
         "zustand": ">=5.0.0",
@@ -145,11 +145,11 @@
 
     "@standard-schema/spec": ["@standard-schema/spec@1.1.0", "", {}, "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="],
 
-    "@sudobility/mogulgame_client": ["@sudobility/mogulgame_client@0.0.31", "", { "peerDependencies": { "@sudobility/types": "^1.9.62", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-AWdzRtqA8KHBy5Ntq5VPZO45CB2ov639pxqpWf7UuzVoH75yZ3h9XhKBqLvd27pcY+lr2hzFy/CMr9bTUDy1ZA=="],
+    "@sudobility/mogulgame_client": ["@sudobility/mogulgame_client@0.0.32", "", { "peerDependencies": { "@sudobility/types": "^1.9.67", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-h7j1JbXqXj4VFLAABtKGdNsvF76GkvymU1mTvrgU+CRPwsdxECmeziZeaBY9l3s/XYq8WuxIuKNKvbAx0OFRjw=="],
 
-    "@sudobility/mogulgame_types": ["@sudobility/mogulgame_types@0.0.22", "", { "peerDependencies": { "@sudobility/types": "^1.9.62" } }, "sha512-Iv1hBig/61tfmsA5irMIRJRBN0ZmAImXCcFJoJSEB0+8y048SIgzz1LpLxfhCYRQM6AHA2eDvU8+PYp3SYfXbg=="],
+    "@sudobility/mogulgame_types": ["@sudobility/mogulgame_types@0.0.23", "", { "peerDependencies": { "@sudobility/types": "^1.9.67" } }, "sha512-hqNGjXtK5+RKFYT2dDnKrzFm6BHBYZwyeGPRL/BHNwoUF0CdoFLzU6CjORDFCENcj2PbozVY3ng5RPs9b0+f3A=="],
 
-    "@sudobility/types": ["@sudobility/types@1.9.62", "", {}, "sha512-GOkz5oE7Fmlolba2aemBF2fKPtH4I2lHAjVta+fqZAoAV72DQaWYzVEjTwKZs/ACY/g9Z262IDa7lEh+IOrn7w=="],
+    "@sudobility/types": ["@sudobility/types@1.9.67", "", {}, "sha512-d+jk4L9i8VNvOnCJW/craqiiUTPH5aRq4KYe/QBrBU3mCcTfoYjgzzXopVQRcthiZ5dwQAEpdqCTQ0gAWRN6Ww=="],
 
     "@tanstack/query-core": ["@tanstack/query-core@5.99.0", "", {}, "sha512-3Jv3WQG0BCcH7G+7lf/bP8QyBfJOXeY+T08Rin3GZ1bshvwlbPt7NrDHMEzGdKIOmOzvIQmxjk28YEQX60k7pQ=="],
 
